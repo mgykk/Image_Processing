@@ -1,5 +1,5 @@
-IMAGE="../datas/timg.jpg"
-OUT_PATH="../datas/cropped.jpg"
+IMAGE=".jpg"
+OUT_PATH=".jpg"
 
 BBOX_TOP_LEFT_X=175
 BBOX_TOP_LEFT_Y=30
@@ -12,5 +12,5 @@ OUT_H=135
 ROTATE_ANGLE=20
 SHEAR_FACTOER=0.2
 
-./build/AffiEx \
+./Aff \
   $IMAGE $BBOX_TOP_LEFT_X $BBOX_TOP_LEFT_Y $BBOX_W $BBOX_H $ROTATE_ANGLE $SHEAR_FACTOER $OUT_W $OUT_H $OUT_PATH
